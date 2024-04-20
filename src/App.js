@@ -14,8 +14,3 @@ function App() {
 
 export default App;
 
-
-
-{/* npm i --global yarn */ }
-{/* yarn install */ }
-{/* yarn start --reset-cache */ }

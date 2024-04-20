@@ -43,12 +43,8 @@ const Screen = () => {
   return (
     <div className="main-container">
       <header>
-        <nav>
-          <ul>
-            <li>
-              <h1>To-do Application</h1>
-            </li>
-          </ul>
+        <nav>    
+              <h1 className="heading">To-do Application</h1>     
         </nav>
       </header>
       <main>
