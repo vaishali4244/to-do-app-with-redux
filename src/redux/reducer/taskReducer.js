@@ -20,6 +20,6 @@ export const taskDetail = createSlice({
     }
 })
 
-//automatically generated actions and reducer
+
 export const { setData, delData} = taskDetail.actions;
 export default taskDetail.reducer;

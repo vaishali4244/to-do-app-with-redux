@@ -1,0 +1,57 @@
+.list-container {
+  box-sizing: border-box;
+  height: 3rem;
+  width: 80vw;
+  background-color: rgb(82, 117, 117);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vh;
+  padding: 0 4vw;
+}
+
+.list-content {
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: rgb(250, 214, 170);
+  padding: 0.5rem 0;
+}
+
+.dlt-btn {
+  height: 2rem;
+  min-width: 8vw;
+  background-color: rgb(250, 214, 170);
+  color: rgb(49, 91, 91);
+  font-size: 1.1rem;
+  padding: 0 0.3rem;
+  border: none;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dlt-btn:hover {
+  background-color: rgb(249, 224, 194);
+}
+
+@media screen and (max-width: 767px) {
+  .list-container {
+    box-sizing: border-box;
+    height: auto;
+    width: 80vw;
+    background-color: rgb(82, 117, 117);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+    padding: 0 4vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .list-container {
+    flex-direction: column;
+  }
+}
